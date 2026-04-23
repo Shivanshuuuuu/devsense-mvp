@@ -46,4 +46,15 @@ User → Login → Dashboard → Identify Issue → Click Metric → Insight →
 
 ---
 
-## 📦 Project Structure
+## 🔐 Authentication & Data Behavior
+
+- Users can sign up using a full name and username.
+- The application stores user data in the browser using localStorage.
+- Only previously registered usernames can log in.
+- This simulates a basic multi-user system without a database.
+
+## 📊 Metrics Behavior
+
+- Metrics are not fetched from a real data source.
+- Values are generated dynamically to simulate realistic scenarios.
+- This allows the application to demonstrate functionality without backend data integration.
